@@ -9,4 +9,7 @@ class CostumeStores < ActiveRecord::Migration[5.1]
       x.integer :num_of_employees
       x.boolean :still_in_business
       x.string :opening_time
-      
+      x.string :closing_time
+    end
+  end
+end
