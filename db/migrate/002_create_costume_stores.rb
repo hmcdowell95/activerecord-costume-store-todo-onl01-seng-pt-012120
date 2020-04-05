@@ -5,4 +5,4 @@ class CostumeStores < ActiveRecord::Migration[5.1]
     create_table :costume_stores do |x|
       x.string :name 
       x.string :location 
-      x.
+      x.boolean :
