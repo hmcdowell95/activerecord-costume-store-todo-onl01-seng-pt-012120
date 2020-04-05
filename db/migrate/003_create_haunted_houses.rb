@@ -1,2 +1,5 @@
 # Create your haunted_houses migration here
-class CreateHauntedHouses < ActiveRecords
+class CreateHauntedHouses < ActiveRecord::Migration[5.1]
+  
+  def change
+    create_table 
